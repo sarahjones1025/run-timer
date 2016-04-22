@@ -1,0 +1,35 @@
+.submit{
+	-webkit-appearance: none;
+    background-color: #85cc9c;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    display: inline-block;
+    padding: 3%;
+    width: 100%;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.data_entry{
+	margin-bottom: 20px;
+	label{
+		font-size: 1.3em;
+	    font-weight: bold;
+	    display: inline-block;
+	    width: 32%;
+	}
+	input{
+		border-radius: 10px;
+	    border: none;
+	    box-shadow: inset 0 3px 4px rgba(0,0,0,0.4);
+	    width: 61%;
+	    padding: 3%;
+	    display: inline-block;
+	}
+}
+

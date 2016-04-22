@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <title>Single Run Edit</title>
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="../assets/main.css">
+    </head>
+    <body>
+        <div class="wrapper1">
+            <div class="header_bar">
+                <a href="#">Back</a>
+                <h1>Insert Name of Run Here!</h1>
+            </div>
+            <div class="timer"></div>
+            <main>
+                <form action="submit">
+                    <label for="distance">Distance:</label>
+                    <input type="text" class="distance">
+                    <label for="textbox">Notes:</label>
+                    <textarea name="textbox" cols="50" rows="5"></textarea>
+                    <div class="reported_time">
+                        <h3>Run Time:</h3>
+                        <p></p> <!-- input time of run here -->
+                    </div>
+                    <div class="reported_calories">
+                        <h3>Calories Burned:</h3>
+                        <p>Calories</p> <!-- input number of calories here -->
+                    </div>
+                </form>
+                <a href="#">Save Changes</a>
+            </main>
+            <nav class="lower_nav">
+                <button class="active_nav"><span></span>Dashboard</button>
+                <button><span></span>Runs</button>
+                <button><span></span>Data</button>         
+            </nav>
+        </div>
+        <script src="js/script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,166 @@
+#create, .addRun{
+	-webkit-appearance: none;
+    background-color: #85cc9c;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    display: inline-block;
+    padding: 3%;
+    width: 100%;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.main_content{
+	background-color: $off-white;
+	border-radius: 10px;
+	padding: 5%;
+	margin-bottom: 20px;
+}
+
+.Create{
+	// text-align: right;
+	// margin-left: 2%;
+	label{
+		font-size: 25px;
+		font-weight: bold;
+	}
+	input, textarea{
+		border-radius: 10px;
+		
+	}
+}
+
+.header-text{
+	text-align: center;
+	background-color: $dark-grey;
+	font-weight: bold;
+	color: #fff;
+	font-size: 2.5em;
+	margin: 0;
+	padding: 5%;
+}
+
+.new_run_sections{
+	margin-bottom: 20px;
+	label{
+		font-size: 1.3em;
+	    font-weight: bold;
+	    display: inline-block;
+	    width: 34%;
+	}
+	input{
+		border-radius: 10px;
+	    border: none;
+	    box-shadow: inset 0 3px 4px rgba(0,0,0,0.4);
+	    width: 60%;
+	    padding: 3%;
+	    display: inline-block;
+	}
+}
+
+#run-notes{
+	width: 61%;
+	border: none;
+	box-shadow: inset 0 3px 4px rgba(0,0,0,0.4);
+	 padding: 3%;
+
+}
+
+.notes_label{
+	vertical-align: top;
+}
+
+#cancel{
+	position: absolute;
+    top: 29px;
+    left: 10px;
+    font-size: .6em;
+    color: #fff;
+    background-color: $med-grey;
+    border-radius: 10px;
+    border: solid 1px $light-grey;
+    padding: 10px;
+}
+
+.button-container{
+	// position: relative;
+}
+
+.instructions{
+	background-color: $dark-grey;
+	color: #fff;
+	text-align: center;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	p{
+		font-size: 1.5em;
+		padding: 5%;
+		margin: 0;
+	}
+}
+
+.runs{
+	background-color: #box-grey;
+}
+
+.runs-list{
+	margin-bottom: 20px;
+}
+
+.runItem{
+	display: block;
+	border-bottom: solid 1px #000;
+	padding: 3%;
+	span{
+		font-size: 1.2em;
+	}
+}
+
+.distance{
+	float: right;
+}
+
+.timer-slot{
+	position: relative;
+	
+	div{
+		background-color: rgba(0,0,0,0.4);
+		width: 100%;
+		height: 100%;
+		border-radius: 10px;
+		z-index: 5;
+		// position: relative;
+	}
+}
+
+.timer{
+	position: absolute;
+	height: 100%;
+	//top: 20%;
+	top: 0;
+	left: 0;
+	font-size: 2em;
+
+
+}
+
+.stopButton{
+	z-index: 10;
+	color: #000;
+	background-color: yellow;
+	-webkit-appearance: none;
+	border: none;
+	border-radius: 10px;
+	position: absolute;
+	bottom: 0;
+	left: 40%;
+	padding: 3%;
+}
+
+
+
+
+
+

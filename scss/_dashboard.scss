@@ -1,0 +1,123 @@
+body{
+	text-family: Helvetica, sans-serif;
+	max-width: 600px;
+}
+
+.hide_button{
+	display: none;
+}
+
+.inner_wrap{
+	padding: 15px;
+}
+
+.header_bar{
+	text-align: center;
+	background-color: $dark-grey;
+	position: relative;
+	h1{
+		font-weight: bold;
+		color: #fff;
+		font-size: 36px;
+		margin: 0;
+		padding: 5%;
+	}
+	margin-bottom: 20px;
+}
+
+.back{
+	position: absolute;
+	top: 28%;
+	left: 10px;
+	background-color: $med-grey;
+	border: solid 1px $light-grey;
+	border-radius: 10px;
+	color: #fff;
+	padding: 2%;
+}
+
+.cal_distance{
+	background-color: $dark-grey;
+	border-radius: 10px;
+	text-align: center;
+	margin-bottom: 30px;
+	a{
+		display: inline-block;
+	    padding: 4%;
+	    color: #fff;
+	    font-weight: bold;
+	    text-decoration: none;
+	    font-size: 24px;
+	}
+}
+
+main ul{
+	padding: 0;
+	margin: 0;
+	background-color: $box-grey;
+	border-radius: 10px;
+	li{
+		list-style: none;
+		padding: 2%;
+		margin: 0;
+		border-bottom: solid 2px $med-grey;
+		&:last-child{
+			border: none;
+		}
+		p.run_date{
+			color: #000;
+			margin: 0;
+			float: left;
+			margin-right: 5%;
+			
+		}
+		p.calories{
+			color: #fff;
+			margin: 0;
+			padding: 5%;
+		}
+
+		div.flex_width{
+			background-color: $green;
+			width: 30%;
+			float: left;
+			border-radius: 10px;
+		}
+	}
+}
+
+.lower_nav{
+	background-color: $dark-grey;
+	padding: 2% 0;
+	text-align: center;
+	button{
+		-webkit-appearance: none;
+		background-color: transparent;
+		border: none;
+		padding-top: 10px;
+		color: #fff;
+		width: 24%;
+		font-size: 12px;
+	}
+	span{
+		display: block;
+		height: 50px;
+		width: 50px;
+		border-radius: 50%;
+		// background-color: $off-white;
+		border: solid 3px $off-white;
+		margin: 0 auto 10px auto;
+	}
+}
+
+.active_nav{
+	span{
+		background-color: $off-white;
+	}
+	
+}
+
+
+
+
+
